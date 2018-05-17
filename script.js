@@ -34,7 +34,7 @@ document.getElementById("countdown").innerHTML = "Time Left : " + secs;
 textarea.addEventListener("keydown", function(k){
 
   if(i==-1 && flag==0)
-     { startTimer(5);    textarea.style.background="#2be22e"; flag=1;}
+     { startTimer(60);    textarea.style.background="#2be22e"; flag=1;}
   
   if(k.key=='Backspace'){
     if(i!=-1)
