@@ -10,7 +10,7 @@ body{
 }
 
 hr{
-    margin: 0 500px
+    margin: 0 200px
 }
 
 #counter{
@@ -25,7 +25,7 @@ hr{
 }
 
 .heading{
-    font-size: 50px;
+    font-size: 30px;
     font-family: verdana;
     vertical-align: center;
     text-align:  left;
@@ -38,24 +38,25 @@ hr{
 }
 
 p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: arial;
 }
 h3{
     font-family: helvetica;
     text-align: left;
     font-size: 20px;
-    margin-left: 500px;
+    margin-left: 200px;
 }
 
 textarea{
-    font-size: 30px;
+    font-size: 20px;
     width: 50%;
-    margin: 10px 500px;
+    width: 1116px;
+    height: 102px;
+    margin: 10px 200px;
  }
 .inputText{
-    margin: 0 500px;
-    font-size: 30px;
+    margin: 0 200px;
     border: 2px solid black;
     padding :1%;
     background-color: white;
@@ -71,13 +72,16 @@ button{
 }
 
 #results{
-    font-size: 50px
+    font-family: Courier;
+    font-size: 30px
 }
 #results1{
-    margin-left: 500px;
-    font-size: 50px
+    font-family: Courier;
+    margin-left: 200px;
+    font-size: 30px
 }
 #results2{
-    margin-left: 500px;
-    font-size: 50px
+    font-family: Courier;
+    margin-left: 200px;
+    font-size: 30px
 }
