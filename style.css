@@ -1,26 +1,83 @@
 body{
-    padding: 0 25%;
-    margin:auto;
+
+    background-color:   #f7f7fc ;
 }
-h1{
+
+.headingLayout{
+    margin : 1px solid black;
+    width : 100%;
+    background-color: #243C98;
+}
+
+hr{
+    margin: 0 500px
+}
+
+#counter{
+    margin-left: 80%;
+    border:1px solid black;
+}
+
+#countdown{
     font-family: helvetica;
-    text-align: center;
+    padding:2%;
+    font-size: 25px;
+}
+
+.heading{
+    font-size: 50px;
+    font-family: verdana;
+    vertical-align: center;
+    text-align:  left;
+    padding-left: 100px;
+    color: #B1FFB0;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 25px;
+    font-family: arial;
 }
 h3{
     font-family: helvetica;
     text-align: left;
-    font-size: 20px
+    font-size: 20px;
+    margin-left: 500px;
 }
 
 textarea{
     font-size: 30px;
-    width: 100%;
-    height: 250px;
-}
+    width: 50%;
+    margin: 10px 500px;
+ }
 .inputText{
+    margin: 0 500px;
     font-size: 30px;
-    padding-left:25%;
     border: 2px solid black;
     padding :1%;
-    margin: auto;
+    background-color: white;
+}
+
+.over{
+    margin-left:  50%;
+}
+button{
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+}
+
+#results{
+    font-size: 50px
+}
+#results1{
+    margin-left: 500px;
+    font-size: 50px
+}
+#results2{
+    margin-left: 500px;
+    font-size: 50px
 }
